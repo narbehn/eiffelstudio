@@ -1,0 +1,143 @@
+<html>
+<head>
+<base target="main">
+</head>
+<body>
+<p align="center"><b>Test Run:01/30/2017   12:48:19.731 PM</b></p><font color="blue"><H2  align="center">BANK_TEST_CONTRACTS1</H2></font><p align="center">Note: * indicates a violation test case</p>
+<table border=1 align="center">
+<tr><td bgcolor="#00FF00" colspan="3">&nbsp;</td></tr><tr><td align="center" colspan="3">PASSED (30 out of 30)</td></tr>
+<tr><td align="center" bgcolor="#000080"><font color="#FFCC00"><b>Case Type</b></font></td>
+<td align="center" bgcolor="#000080"><font color="#FFCC00"><b>Passed</b></font></td>
+<td align="center" bgcolor="#000080"><font color="#FFCC00"><b>Total</b></font></td></tr>
+<tr><td align="center"><font color="blue"><b>Violation</b></font></td>
+<td align="center">14</td><td align="center">14</td></tr>
+<tr><td align="center"><font color="blue"><b>Boolean</b></font></td>
+<td align="center">16</td><td align="center">16</td></tr>
+<tr><td align="center"><font color="blue"><b>All Cases</b></font></td>
+<td align="center">30</td><td align="center">30</td></tr>
+<tr><td align="center" bgcolor="#000080"><font color="#FFCC00"><b>State</b></font></td>
+<td align="center" bgcolor="#000080"><font color="#FFCC00"><b>Contract Violation</b></font></td>
+<td align="center" bgcolor="#000080"><font color="#FFCC00"><b>Test Name</b></font></td></tr>
+<tr><td bgcolor="#008080" align="center"><font color="#FFCC00"><b>Test1</b></font></td>
+<td bgcolor="#008080" align="center" colspan="2"><font color="#FFCC00">BANK_TEST_CONTRACTS1</font></td></tr><tr><td><font color="green"><b>PASSED</b></font></td>
+<td align="center">NONE</td>
+<td>*t_new_pre_1: add an existing customer</td>
+</tr>
+<tr><td><font color="green"><b>PASSED</b></font></td>
+<td align="center">NONE</td>
+<td>*t_deposit_pre_1: deposit on empty bank</td>
+</tr>
+<tr><td><font color="green"><b>PASSED</b></font></td>
+<td align="center">NONE</td>
+<td>*t_deposit_pre_2: deposit on non-existing customer</td>
+</tr>
+<tr><td><font color="green"><b>PASSED</b></font></td>
+<td align="center">NONE</td>
+<td>*t_deposit_pre_3: deposit 0 on existing customer</td>
+</tr>
+<tr><td><font color="green"><b>PASSED</b></font></td>
+<td align="center">NONE</td>
+<td>*t_deposit_pre_4: deposit negative amount on existing customer</td>
+</tr>
+<tr><td><font color="green"><b>PASSED</b></font></td>
+<td align="center">NONE</td>
+<td>*t_withdraw_pre_1: withdraw on empty bank</td>
+</tr>
+<tr><td><font color="green"><b>PASSED</b></font></td>
+<td align="center">NONE</td>
+<td>*t_withdraw_pre_2: withdraw on non-existing customer</td>
+</tr>
+<tr><td><font color="green"><b>PASSED</b></font></td>
+<td align="center">NONE</td>
+<td>*t_withdraw_pre_3: withdraw 0 on existing customer</td>
+</tr>
+<tr><td><font color="green"><b>PASSED</b></font></td>
+<td align="center">NONE</td>
+<td>*t_withdraw_pre_4: withdraw negative amount on existing customer</td>
+</tr>
+<tr><td><font color="green"><b>PASSED</b></font></td>
+<td align="center">NONE</td>
+<td>*t_withdraw_pre_5: withdraw amount exceeding customer's balance</td>
+</tr>
+<tr><td><font color="green"><b>PASSED</b></font></td>
+<td align="center">NONE</td>
+<td>*t_transfer_precond_1: transfer within one's account disallowed</td>
+</tr>
+<tr><td><font color="green"><b>PASSED</b></font></td>
+<td align="center">NONE</td>
+<td>*t_transfer_precond_2: non-existing source account</td>
+</tr>
+<tr><td><font color="green"><b>PASSED</b></font></td>
+<td align="center">NONE</td>
+<td>*t_transfer_precond_3: non-existing target account</td>
+</tr>
+<tr><td><font color="green"><b>PASSED</b></font></td>
+<td align="center">NONE</td>
+<td>*t_transfer_precond_4: insufficient balance for the source account</td>
+</tr>
+<tr><td><font color="green"><b>PASSED</b></font></td>
+<td align="center">NONE</td>
+<td>t_new_total_balance_unchanged : total balance unchanged</td>
+</tr>
+<tr><td><font color="green"><b>PASSED</b></font></td>
+<td align="center">NONE</td>
+<td>t_new_num_customers_increased : number of customers increased</td>
+</tr>
+<tr><td><font color="green"><b>PASSED</b></font></td>
+<td align="center">NONE</td>
+<td>t_new_customer_added_to_the_end: new customer added to the of list</td>
+</tr>
+<tr><td><font color="green"><b>PASSED</b></font></td>
+<td align="center">NONE</td>
+<td>t_new_other_customers_unchanged: old list of customers unchanged</td>
+</tr>
+<tr><td><font color="green"><b>PASSED</b></font></td>
+<td align="center">NONE</td>
+<td>t_deposit_total_balance_increased: total balance increased</td>
+</tr>
+<tr><td><font color="green"><b>PASSED</b></font></td>
+<td align="center">NONE</td>
+<td>t_deposit_num_customers_unchanged: number of customers unchanged</td>
+</tr>
+<tr><td><font color="green"><b>PASSED</b></font></td>
+<td align="center">NONE</td>
+<td>t_deposit_customer_balance_increased: customer's balance increased</td>
+</tr>
+<tr><td><font color="green"><b>PASSED</b></font></td>
+<td align="center">NONE</td>
+<td>t_deposit_other_customers_unchanged: other customers remain unchanged</td>
+</tr>
+<tr><td><font color="green"><b>PASSED</b></font></td>
+<td align="center">NONE</td>
+<td>t_withdraw_total_balance_decreased: total balance decreased</td>
+</tr>
+<tr><td><font color="green"><b>PASSED</b></font></td>
+<td align="center">NONE</td>
+<td>t_withdraw_num_customers_unchanged: number of customers unchanged</td>
+</tr>
+<tr><td><font color="green"><b>PASSED</b></font></td>
+<td align="center">NONE</td>
+<td>t_withdraw_customer_balance_decreased: customer's balance decreased</td>
+</tr>
+<tr><td><font color="green"><b>PASSED</b></font></td>
+<td align="center">NONE</td>
+<td>t_withdraw_other_customers_unchanged: other customers remain unchanged</td>
+</tr>
+<tr><td><font color="green"><b>PASSED</b></font></td>
+<td align="center">NONE</td>
+<td>t_transfer_total_balance_unchanged: total balance unchanged after transfer</td>
+</tr>
+<tr><td><font color="green"><b>PASSED</b></font></td>
+<td align="center">NONE</td>
+<td>transfer_customer_balance_decreased: source account balance decreased</td>
+</tr>
+<tr><td><font color="green"><b>PASSED</b></font></td>
+<td align="center">NONE</td>
+<td>transfer_customer_balance_increased: target account balance increased</td>
+</tr>
+<tr><td><font color="green"><b>PASSED</b></font></td>
+<td align="center">NONE</td>
+<td>transfer_other_customers_unchanged: other accounts unchanged</td>
+</tr>
+</table></body>
+</html>
